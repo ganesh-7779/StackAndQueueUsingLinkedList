@@ -8,5 +8,10 @@ public class QueueRunner {
 		List.enqueue(70);
 		List.enqueue(30);
 		List.show();
+		System.out.println("Before dequeue ");
+		System.out.println();
+		List.dequeue();
+		System.out.println("After dequeue");
+		List.show();
 }
 }
