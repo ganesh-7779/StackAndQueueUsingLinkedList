@@ -13,7 +13,15 @@ LinkedList<T> List = new LinkedList<>();
 	public void enqueue(T data) {
 		List.AtStart(data);
 	}
-
+	
+	/** For removing value/data from stack and
+	 * queue by using Linked list class method.
+	 * @return
+	 */
+	
+	public void dequeue() {
+		 List.pop();
+	} 
 	/**
 	 * For Printing purpose of Data in queue
 	 */
